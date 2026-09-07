@@ -4,6 +4,24 @@ CS 123 lab code: inverse kinematics on one leg, then a heuristic (Raibert-style)
 trotting gait on all four. Follow the lab spec on the course website — this repo is
 where you write the code.
 
+## Folder Content
+```
+ik_heuristic_walking_lab/
+│
+├── README.md
+│
+│
+├── part_1_ik.py            ← YOU implement inverse kinematics here
+├── part_1.launch.py        ← starts ROS controller infrastructure
+├── part_1.yaml             ← configures controller for 3 joints
+│
+├── part_2_walking.py       ← YOU implement the 4-leg walking gait here
+├── part_2.launch.py        ← starts controllers for walking
+├── part_2.yaml             ← configures controllers for all 12 joints
+│
+└── extension/
+    └── ...                 ← live gait tuning / Part 6
+```
 ## Layout
 
 | File | Purpose |
